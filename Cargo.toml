@@ -1,0 +1,11 @@
+[package]
+name = "smithery-logos"
+version = "1.0.0"
+edition = "2024"
+description = "The logo of Dr. Mukherjee's Smithery, ready for its websites"
+license-file = "README.md"
+publish = false
+
+[dependencies]
+# The same Setzer as the sites (Cargo.lock of each site pins the commit).
+setzer = { git = "https://github.com/patmuk/setzer" }
